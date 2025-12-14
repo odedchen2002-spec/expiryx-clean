@@ -17,14 +17,6 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.oded.expiryxclean",
       "usesAppleSignIn": true,
-      "locales": {
-        "he": {
-          "CFBundleDisplayName": "תוקף חכם"
-        },
-        "en": {
-          "CFBundleDisplayName": "Smart Expiry"
-        }
-      },
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "UIBackgroundModes": ["remote-notification"],
@@ -40,20 +32,11 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.oded.expiryxclean",
-      "useNextNotificationsApi": true,
-      "locales": {
-        "he": {
-          "app_name": "תוקף חכם"
-        },
-        "en": {
-          "app_name": "Smart Expiry"
-        }
-      },
-      "notification": {
-        "icon": "./assets/images/logo.png",
-        "color": "#000000"
-      }
+      "package": "com.oded.expiryxclean"
+    },
+    "notification": {
+      "icon": "./assets/images/logo.png",
+      "color": "#000000"
     },
     "web": {
       "bundler": "metro",
