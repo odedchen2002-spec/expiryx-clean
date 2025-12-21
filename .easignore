@@ -21,4 +21,4 @@ ios/build
 .env.*
 
 # supabase edge functions are not required for Android build
-supabase
+/supabase
